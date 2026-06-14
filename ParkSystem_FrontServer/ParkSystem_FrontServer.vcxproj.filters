@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ReadMemShare.cpp" />
+    <ClCompile Include="WriteMemShare.cpp" />
+    <ClCompile Include="CBaseSocket.cpp">
+      <Filter>Intnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CEpollServer.cpp">
+      <Filter>Intnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CHostAddress.cpp">
+      <Filter>Intnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CTcpServer.cpp">
+      <Filter>Intnet</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseTask.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="CSendTask.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrontThreadPool.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="FrontLog.cpp" />
+    <ClCompile Include="HeartBeatThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="protocol.h" />
+    <ClInclude Include="ReadMemShare.h" />
+    <ClInclude Include="WriteMemShare.h" />
+    <ClInclude Include="CBaseSocket.h">
+      <Filter>Intnet</Filter>
+    </ClInclude>
+    <ClInclude Include="CEpollServer.h">
+      <Filter>Intnet</Filter>
+    </ClInclude>
+    <ClInclude Include="CHostAddress.h">
+      <Filter>Intnet</Filter>
+    </ClInclude>
+    <ClInclude Include="CTcpServer.h">
+      <Filter>Intnet</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseTask.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="CSendTask.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrontThreadPool.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="FrontLog.h" />
+    <ClInclude Include="HeartBeatThread.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Intnet">
+      <UniqueIdentifier>{6de266b7-9577-46fa-967f-05fd4b82913f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{5897d386-9558-49b9-b218-cff6973f9e7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

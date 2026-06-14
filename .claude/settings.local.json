@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(winget install *)",
+      "Bash(powershell *)",
+      "Bash(where cursor *)",
+      "Read(//c/Users/Lenovo/AppData/Local/Programs/Cursor/**)",
+      "Read(//c/Program Files/Cursor/**)",
+      "WebFetch(domain:www.cursor.com)"
+    ]
+  }
+}
